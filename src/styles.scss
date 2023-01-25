@@ -25,3 +25,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.hide {
+    display: none;
+}
+
+td {
+    border: 1px solid black;
+    width: 240px;
+    overflow: hidden;
+}
