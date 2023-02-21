@@ -10,11 +10,11 @@
         <link rel="icon" href="/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" href="./assets/reset.css" />
         <link rel="stylesheet" href="/styles.css" />
-        <title>Sort, filter, paginate - GT</title>
+        <title>API Sort, filter, paginate - GT</title>
     </head>
     <body>
         <div class="container">
-            <h1>My Country List</h1>
+            <h1>Country List</h1>
             <div class="columns">
                 <div class="column">
                     <div class="field">
@@ -109,19 +109,20 @@
                                 </th>
                             </tr>
                         </thead>
-                        <tbody></tbody>
+                        <tbody id="paginated-list"></tbody>
                     </table>
                 </div>
             </div>
-            <!-- <div class="columns">
+            <div class="columns">
                 <div class="column center-content">
                     <div class="control">
-                        <button class="button is-success is-light">
+                        <button class="load-more button is-success is-light">
                             Load more
                         </button>
                     </div>
                 </div>
-            </div> -->
+            </div>
+            </nav>
         </div>
         <script src="/scripts.js"></script>
     </body>

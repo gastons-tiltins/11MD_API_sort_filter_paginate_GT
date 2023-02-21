@@ -1,11 +1,9 @@
 @import 'https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css';
 
+// ++++++++++++ BULMA +++++++++++++
+
 body {
     background-color: #d9d9d9;
-}
-
-.container {
-    // padding-top: 20px;
 }
 
 h1 {
@@ -30,8 +28,10 @@ h1 {
     display: none;
 }
 
-td {
-    border: 1px solid black;
-    width: 240px;
-    overflow: hidden;
+table {
+    width: 100%;
+}
+
+.invis {
+    visibility: hiden;
 }
